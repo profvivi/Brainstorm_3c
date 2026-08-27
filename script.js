@@ -55,7 +55,7 @@ function mostraPergunta() {
   caixaPerguntas.textContent = perguntaAtual.enunciado;
   mostraAlternativas();
 }
-
+/*aula4*/
 function mostraAlternativas() {
   for (const alternativa of perguntaAtual.alternativas) {
     const botaoAlternativas = document.createElement("button");
